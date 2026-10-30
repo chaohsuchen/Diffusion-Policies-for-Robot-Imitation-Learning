@@ -1,14 +1,12 @@
 gym
 mujoco==3.1.6
-pyquaternion
-nlopt
 scipy
 torch
 matplotlib
 opencv-python
 
-# Q3
-# mujoco is pinned to 3.1.6 above (not just for Q2) because robosuite only
+# Diffusion policy
+# mujoco is pinned to 3.1.6 above because robosuite only
 # works reliably against mujoco<=3.1.6 in this stack -- newer mujoco breaks
 # robosuite's own MjModel/joint-type compatibility shim, and robosuite>=1.5's
 # composite-controller framework fails to auto-register controllers like

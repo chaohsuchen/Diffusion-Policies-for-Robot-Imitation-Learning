@@ -77,7 +77,3 @@ python scripts/build_report.py
 ```
 
 The four-page report is written to `output/pdf/robot_imitation_report.pdf`. It uses the same archived evaluation CSVs as the analysis. Its diagrams and curve are vector graphics generated with ReportLab.
-
-## Separate DMP exercise
-
-`Q2/` retains the course-derived UR10 ball-catching work. Install its environment with `python -m pip install -e Q2/ballcatch_env/`, then run its scripts from that directory. It is separate from the image-based square-nut experiments and is not used to support the reported diffusion results.

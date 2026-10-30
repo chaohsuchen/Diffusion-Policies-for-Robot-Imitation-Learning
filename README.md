@@ -63,24 +63,6 @@ The figure and table are generated from the [checked-in evaluation CSVs](Q3/resu
 | [Networks](Q3/networks) | Multi-view visual conditioning and a 1D diffusion transformer |
 | [Smoke check](smoke_q3.py) | Short training, checkpoint reload, inference, and output checks |
 | [Analysis script](scripts/analyze_results.py) | Rebuild figures and summary metrics from saved evaluations |
-| [DMP extension](Q2) | Earlier course work on trajectory learning and closed-loop UR10 ball catching |
-
-## A second robotics example: learning a ball-catching motion
-
-The course-derived [DMP exercise](Q2) learns demonstrated joint trajectories and uses a closed-loop controller to drive a simulated UR10. Its [recorded robot rollout](Q2/results/ballcatch.mp4) provides a direct look at task execution, alongside the diffusion action-vector visualizations above.
-
-| Recorded result | Value |
-|---|---:|
-| Ball-catching success rate | 40% |
-| Average episode reward | -17.76 |
-| Best trajectory reconstruction RMSE | 0.06804 radians |
-| Best tested DMP configuration | 45 basis functions, gain 25 |
-
-The [evaluation CSV](Q2/results/ballcatch_metrics.csv) stores aggregate scores; the evaluation entry point uses 20 episodes. The [tuning CSV](Q2/results/tuning.csv) covers 20 configurations and measures fit on the demonstrated trajectories, rather than held-out generalization. This is a separate task and is not a baseline for square-nut assembly.
-
-[![Demonstrated and reconstructed joint trajectory](Q2/results/recons1.png)](Q2/results/README.md)
-
-See the [results guide](Q2/results/README.md) for all six joint reconstruction plots, tuning metrics, and the rollout video.
 
 ## Reproduce and inspect
 

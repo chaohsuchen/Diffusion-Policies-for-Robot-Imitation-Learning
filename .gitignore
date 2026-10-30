@@ -30,3 +30,6 @@ assignment_*.zip
 Q3/results/*/models/
 
 # Result CSVs, plots, and demonstration videos are intentionally tracked.
+
+# Separate local coursework, outside this diffusion-policy project
+Q2/
