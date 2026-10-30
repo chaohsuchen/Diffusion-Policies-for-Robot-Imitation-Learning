@@ -1,0 +1,24 @@
+# Install a lab-compatible CUDA or ROCm torch/torchvision pair FIRST.
+# This file deliberately leaves the GPU backend choice to that installation.
+numpy==1.26.4
+gym==0.26.2
+mujoco==3.1.6
+robosuite==1.4.1
+scipy==1.14.1
+matplotlib==3.8.4
+opencv-python==4.10.0.84
+zarr==2.16.1
+numcodecs==0.12.1
+imagecodecs==2025.3.30
+numba==0.59.1
+h5py==3.11.0
+tqdm
+huggingface_hub<1
+termcolor
+psutil
+tensorboard
+tensorboardX
+imageio
+imageio-ffmpeg
+easydict
+egl_probe==1.0.2

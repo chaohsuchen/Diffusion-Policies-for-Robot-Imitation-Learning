@@ -1,0 +1,34 @@
+{
+  "bc": {
+    "source": "Q3/results/bc/eval_metrics.csv",
+    "final_step": 100000,
+    "final_success": 0.2,
+    "best_step": 40000,
+    "best_success": 0.32,
+    "checkpoints": 10
+  },
+  "diffusion_policy_eps": {
+    "source": "Q3/results/diffusion_policy_eps/eval_metrics.csv",
+    "final_step": 100000,
+    "final_success": 0.48,
+    "best_step": 100000,
+    "best_success": 0.48,
+    "checkpoints": 10
+  },
+  "diffusion_policy_x0": {
+    "source": "Q3/results/diffusion_policy_x0/eval_metrics.csv",
+    "final_step": 100000,
+    "final_success": 0.52,
+    "best_step": 80000,
+    "best_success": 0.88,
+    "checkpoints": 10
+  },
+  "diffusion_policy_eps_sigmoid": {
+    "source": "Q3/results/diffusion_policy_eps_sigmoid/eval_metrics.csv",
+    "final_step": 100000,
+    "final_success": 0.6,
+    "best_step": 70000,
+    "best_success": 0.76,
+    "checkpoints": 10
+  }
+}

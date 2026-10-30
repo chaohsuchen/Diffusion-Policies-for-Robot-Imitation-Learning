@@ -1,0 +1,28 @@
+gym
+mujoco==3.1.6
+pyquaternion
+nlopt
+scipy
+torch
+matplotlib
+opencv-python
+
+# Q3
+# mujoco is pinned to 3.1.6 above (not just for Q2) because robosuite only
+# works reliably against mujoco<=3.1.6 in this stack -- newer mujoco breaks
+# robosuite's own MjModel/joint-type compatibility shim, and robosuite>=1.5's
+# composite-controller framework fails to auto-register controllers like
+# OSC_POSE. robosuite==1.4.1 is the newest version that works cleanly here.
+# robomimic must be installed from source (see Q3/README.md) -- released
+# PyPI versions either hard-import mujoco_py (0.3.0) or pull in unrelated,
+# heavy deps like transformers/diffusers (0.5.0); v0.4.0 from GitHub has
+# neither problem.
+torchvision
+zarr<2.17
+numcodecs
+imagecodecs
+numba<0.60.0
+h5py
+tqdm
+robosuite==1.4.1
+huggingface_hub

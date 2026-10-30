@@ -1,0 +1,33 @@
+# Local tools, environments, caches
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.idea/
+.cache/
+tmp/
+logs/
+slurm-*.out
+slurm-*.err
+
+# Downloaded demonstrations and large neural checkpoints
+Q3/data/
+*.pt
+*.pth
+smoke_results/
+
+# Coursework handouts and private submission artifacts (retained locally)
+A2.pdf
+HOMEWORK_GUIDE.md
+Q3_RUN.md
+assignment_*/
+assignment_*.zip
+
+# Keep compact evidence; exclude weights and temporary experiment outputs
+Q3/results/*/models/
+
+# Secondary DMP generated outputs remain local
+Q2/results/
