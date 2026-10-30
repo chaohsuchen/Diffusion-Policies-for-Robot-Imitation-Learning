@@ -29,5 +29,4 @@ assignment_*.zip
 # Keep compact evidence; exclude weights and temporary experiment outputs
 Q3/results/*/models/
 
-# Secondary DMP generated outputs remain local
-Q2/results/
+# Result CSVs, plots, and demonstration videos are intentionally tracked.
